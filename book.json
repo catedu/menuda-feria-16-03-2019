@@ -1,38 +1,42 @@
 {
-    "plugins": [
-        "youtube",
-        "accordion",
-        "edit-link",
-        "githubcontributors",
-        "localized-footer",
-        "image-captions"
-    ],
-    "language": "es",
-    "variables": {
-        "title": "Menuda Feria 16-03-2019",
-        "author": "Javier Quintana Peiró - Equipo CATEDU",
-        "collaborators": [
-            {
-                "name": "_________",
-                "edited": "_____________"
-            }
-        ]
+  "plugins": [
+    "youtube",
+    "accordion",
+    "edit-link",
+    "githubcontributors",
+    "localized-footer",
+    "image-captions",
+    "ga"
+  ],
+  "language": "es",
+  "variables": {
+    "title": "Menuda Feria 16-03-2019",
+    "author": "Javier Quintana Peiró - Equipo CATEDU",
+    "collaborators": [
+      {
+        "name": "_________",
+        "edited": "_____________"
+      }
+    ]
+  },
+  "pluginsConfig": {
+    "image-captions": {
+      "caption": "Imagen - _CAPTION_"
     },
-    "pluginsConfig": {
-        "image-captions": {
-            "caption": "Imagen - _CAPTION_"
-        },
-        "localized-footer": {
-            "hline": true,
-            "filename": "./FOOTER.md"
-        },
-        "edit-link": {
-            "base": "https://github.com/catedu/menuda-feria-16-03-2019/edit/master",
-            "label": "Edita esta página"
-        },
-        "githubcontributors": {
-            "githubOwner": "catedu",
-            "githubRepository": "menuda-feria-16-03-2019"
-        }
+    "localized-footer": {
+      "hline": true,
+      "filename": "./FOOTER.md"
+    },
+    "edit-link": {
+      "base": "https://github.com/catedu/menuda-feria-16-03-2019/edit/master",
+      "label": "Edita esta página"
+    },
+    "githubcontributors": {
+      "githubOwner": "catedu",
+      "githubRepository": "menuda-feria-16-03-2019"
+    },
+    "ga": {
+      "token": "UA-135691041-2"
     }
+  }
 }
